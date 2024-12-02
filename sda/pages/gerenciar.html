@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gerenciador</title>
+    <link rel="stylesheet" href="/assets/css/gerenciar.css">
+    <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css"
+    rel="stylesheet"
+    />
+</head>
+<body>
+    <main class="gerenciar-main">
+        <section class="menu">
+            <a href="/index.html">
+                <div class="menu-back">
+                <i class="ri-home-2-line"></i>
+            </div>
+            </a>
+        </section>
+        
+        <section class="gerenciar-estrutura"><!--ÁREA DE ACESSO E BOAS VINDAS-->
+            <div class="gerenciar-inicio">
+                <div class="gerenciar-area">
+                    <label for="arquivo" class="upload-botao">
+                        <i class="ri-file-copy-2-fill" id="icon"></i>
+                        <br>
+                        <h1>Faça o Upload aqui!</h1>
+                    </label>
+                    <input type="file" id="arquivo"/> 
+                </div>
+
+                <div class="gerenciar-editar">
+                    <button id="editar-btn">Editar <i class="ri-arrow-right-line"></i></button>
+                </div>
+
+                <div class="gerenciar-salvo">
+                    <h1>Salvos</h1>
+                    <div class="gerenciar-item" id="gerenciar-item"></div>
+                </div>
+            </div>  
+        </section>
+    </main>
+
+    <footer class="area-footer">
+        <h1>Desenvolvido por</h1>
+        <div class="barra-footer"></div>
+        <h2>Julyo | Thiago | Thierry | Gustavo | Felipe</h2>
+        <p>Copyright © 2024 - Todos os direitos reservados</p>
+    </footer>
+
+    <script src="/assets/JS/upload.js"></script>
+    <script src="/assets/JS/gerenciar.js"></script>
+</body>
+</html>
